@@ -11,6 +11,10 @@ class River
     return @fish.size
   end
 
+  def fish_array()
+    return @fish
+  end
+
   def add_fish_to_river(fish1, fish2)
     @fish.push(fish1, fish2)
   end
